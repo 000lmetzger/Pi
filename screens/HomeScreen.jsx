@@ -9,7 +9,6 @@ export default function App() {
   const [buttonHeight, setButtonHeight] = useState('10%');
   const [dispChilds, setDispChilds] = useState(false);
   const [dispChildsPressed, setDispChildsPressed] = useState(false);
-
   const navigation = useNavigation();
 
   return (
